@@ -25,3 +25,8 @@
 .header h3 a:hover {
     color: #00bc8c;
 }
+
+.left {
+    position: absolute;
+    right: 2%;
+}

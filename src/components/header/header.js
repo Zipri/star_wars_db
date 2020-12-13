@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './header.css';
+import ErrorButton from "../error-button";
 
 const Header = () => {
   return (
@@ -21,6 +22,7 @@ const Header = () => {
           <a href="#">Starships</a>
         </li>
       </ul>
+      <a className="left"> <ErrorButton/> </a>
     </div>
   );
 };
